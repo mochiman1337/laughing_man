@@ -38,7 +38,7 @@ Array.from(box.children).forEach(
                 dy *= -1;
             };
             x = x + dx;
-            y = x + dy;
+            y = y + dy;
             element.style.left = x + "px";
             element.style.top = y + "px";
         }, TIMER_SPEED);//function, time in ms
